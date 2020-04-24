@@ -1,0 +1,56 @@
+<template lang="pug">
+.title-bar
+  span(style="color: #e70012;") 新闻
+  span 策划
+  a.more(href="#") 更多+
+</template>
+
+
+<style lang="less">
+.channel-banner {
+  position: relative;
+}
+.logo {
+  position: absolute;
+  top: 60px;
+  left: 0;
+  line-height: 56px;
+  font-family: "微软雅黑","Microsoft YaHei";
+  font-size: 32px;
+  font-weight: normal;
+  color: #e30116;
+  a, a:active, a:hover {
+    color: #e40011;
+    text-decoration: none;
+  }
+  a {
+    display: block;
+    float: left;
+  }
+  img {
+    margin-right: 10px;
+  }
+}
+img {
+  display: block;
+}
+.title-bar {
+  height: 55px;
+  font-weight: bold;
+  background-color: #fef2f3;
+  border-top: 5px solid #e70012;
+  line-height: 55px;
+  text-align: center;
+  font-size: 28px;
+  position: relative;
+}
+.more {
+  position: absolute;
+  right: 10px;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  color: #e70012;
+  font-size: 14px;
+}
+</style>

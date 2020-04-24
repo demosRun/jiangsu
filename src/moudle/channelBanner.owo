@@ -1,0 +1,40 @@
+<template lang="pug">
+.w1000.channel-banner
+  img(src="http://js.people.com.cn/img/LOCAL/2016/09/112887/images/jiangsu.jpg")
+  .logo
+    a(href='http://www.people.com.cn/', target='_blank')
+      img(src='http://www.people.com.cn/img/MAIN/2016/11/116906/images/logo_rmw.png', width='125', height='48')
+    a(href='http://js.people.com.cn', target='_blank')
+      | 江苏
+</template>
+
+
+<style lang="less">
+.channel-banner {
+  position: relative;
+}
+.logo {
+  position: absolute;
+  top: 60px;
+  left: 0;
+  line-height: 56px;
+  font-family: "微软雅黑","Microsoft YaHei";
+  font-size: 32px;
+  font-weight: normal;
+  color: #e30116;
+  a, a:active, a:hover {
+    color: #e40011;
+    text-decoration: none;
+  }
+  a {
+    display: block;
+    float: left;
+  }
+  img {
+    margin-right: 10px;
+  }
+}
+img {
+  display: block;
+}
+</style>

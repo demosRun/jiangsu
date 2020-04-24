@@ -1,0 +1,63 @@
+<template>
+  <div class="main-bar">
+    <a target="_blank" :for="data._itemLiat" href="{value.url}" >{value.name}</a>
+  </div>
+</template>
+
+<script>
+  module.exports = {
+    data: {
+      _itemLiat: [
+        {"url":"http://www.people.com.cn/","name":"江苏要闻"},
+        {"url":"http://www.people.com.cn/","name":"国际国内"},
+        {"url":"http://www.people.com.cn/","name":"评论"},
+        {"url":"http://www.people.com.cn/","name":"政治"},
+        {"url":"http://www.people.com.cn/","name":"舆情"},
+        {"url":"http://www.people.com.cn/","name":"经济"},
+        {"url":"http://www.people.com.cn/","name":"房产"},
+        {"url":"http://www.people.com.cn/","name":"民生"},
+        {"url":"http://www.people.com.cn/","name":"社会"},
+        {"url":"http://www.people.com.cn/","name":"教育"},
+        {"url":"http://www.people.com.cn/","name":"文化"},
+        {"url":"http://www.people.com.cn/","name":"旅游"},
+        {"url":"http://www.people.com.cn/","name":"娱乐"},
+        {"url":"http://www.people.com.cn/","name":"专稿"},
+        {"url":"http://www.people.com.cn/","name":"专题"},
+        {"url":"http://www.people.com.cn/","name":"视频"},
+        {"url":"http://www.people.com.cn/","name":"图片"},
+      ]
+    }
+  }
+</script>
+
+<style lang="less">
+.main-bar {
+  width: 1000px;
+  font-size: 17px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  margin: 0 auto;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  background-color: #ce262a;
+  a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  a:hover {
+    color: white;
+    text-decoration: #ffffff;
+    text-decoration:  underline;;
+  }
+
+}
+a {
+  color: white;
+  display: inline;
+  margin: 10px;
+  line-height: 30px;
+  text-align: center;
+}
+</style>

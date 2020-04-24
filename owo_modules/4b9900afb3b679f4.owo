@@ -1,0 +1,39 @@
+<template>
+  <div class="image-show">
+    <a href="#">
+      <img width="320" height="192" src="http://www.people.com.cn/NMediaFile/2019/1018/MAIN201910180031067527483482125.jpg">
+      <h4><span style="color: red;">[标题内容] </span>说明文字说说明文字说明文字说明文字说明文字说明文字明文字说明文字说明文字说明文字</h4>
+    </a>
+  </div>
+</template>
+
+<style>
+.image-show {
+  width: 320px;
+  padding: 10px 0;
+}
+a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+img {
+  width: 100%;
+  height: 192px;
+  display: block;
+  box-sizing: border-box;
+}
+img:hover {
+  border: 3px solid red;
+}
+h4 {
+  height: 48px;
+  line-height: 24px;
+  overflow: hidden;
+  text-align: left;
+  font-size: 16px;
+  color: #585858;
+  font-weight: bold;
+  margin: 10px 0;
+}
+</style>

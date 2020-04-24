@@ -1,5 +1,33 @@
 <template lang="pug">
 .home
+  plug(_name="channelTop" _src="./src/moudle/channel.owo")
+  .w1000
+    .h10
+    plug(_name="channelBanner" _src="./src/moudle/channelBanner.owo")
+    plug(_name="nav" _src="https://template.owo.ink/16f73a11cea049db.owo")
+    plug(_name="textBar" _src="./src/moudle/textBar.owo")
+  plug(_name="channelBar" _src="./src/moudle/channelBar.owo")
+  .gray
+    .w1000
+      .h35
+      plug(_name="high1" _src="https://template.owo.ink/5bea191afe019c5c.owo")
+      .h35
+  .w1000
+    .h35
+    plug(_name="titleBar" _src="./src/moudle/titleBar.owo")
+    .h10
+    .xwch.clear
+      plug(_name="imageAndText" _src="https://template.owo.ink/4b9900afb3b679f4.owo")
+      plug(_name="imageAndText" _src="https://template.owo.ink/4b9900afb3b679f4.owo")
+      plug(_name="imageAndText" _src="https://template.owo.ink/4b9900afb3b679f4.owo")
+      plug(_name="imageAndText" _src="https://template.owo.ink/4b9900afb3b679f4.owo")
+      plug(_name="imageAndText" _src="https://template.owo.ink/4b9900afb3b679f4.owo")
+      plug(_name="imageAndText" _src="https://template.owo.ink/4b9900afb3b679f4.owo")
+      .h10
+  .gray
+    .w1000
+      .h35
+      plug(_name="titleBar" _src="./src/moudle/titleBar.owo")
 </template>
 
 <script>
@@ -12,5 +40,23 @@
 
 
 <style lang="less">
-
+.top_nav {
+  height: 60px;
+  background-color: #e60012;
+  line-height: 60px;
+  color: white;
+}
+a {
+  color: white;
+}
+.gray {
+  background-color: #f2f2f2;
+}
+.image-show {
+  float: left;
+  margin-right: 20px;
+}
+.xwch .image-show:nth-child(3n) {
+  margin-right: 0;
+}
 </style>

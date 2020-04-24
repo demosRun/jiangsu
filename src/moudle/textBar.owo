@@ -1,0 +1,85 @@
+<template lang="pug">
+.text-bar.clear.red-a
+  .left.fl
+    b
+      a(href='/GB/359726/360296/index.html', target='_blank') 人民日报看江苏
+    b
+      a(href='http://www.jspeople.com', target='_blank') 百姓呼声
+    b(style='padding-right:4px;')
+      a(href='http://www.jspeople.com/leader', target='_blank') 给领导留言
+  ul.fl.clear
+    li
+      a(href='/GB/361417/359575/index.html', target='_blank') 南京
+    li
+      a(href='/GB/361417/359576/index.html', target='_blank') 苏州
+    li
+      a(href='http://wuxi.people.com.cn/', target='_blank') 无锡
+    li
+      a(href='http://nantong.people.com.cn/', target='_blank') 南通
+    li
+      a(href='http://xuzhou.people.com.cn/', target='_blank') 徐州
+    li
+      a(href='/GB/361417/359578/index.html', target='_blank') 常州
+    li
+      a(href='/GB/361417/359583/index.html', target='_blank') 盐城
+    li
+      a(href='/GB/361417/359580/index.html', target='_blank') 扬州
+    li
+      a(href='/GB/361417/359581/index.html', target='_blank') 泰州
+    li
+      a(href='/GB/361417/359579/index.html', target='_blank') 镇江
+    li
+      a(href='http://huaian.people.com.cn/', target='_blank') 淮安
+    li
+      a(href='/GB/361417/359585/index.html', target='_blank') 连云港
+    li
+      a(href='/GB/361417/359586/index.html', target='_blank') 宿迁
+  .right.fl
+      b(style='padding-left:0px; color:#000000') 新闻热线：025-85582800
+      b
+        a(href='http://m.people.cn/1141/1182/index.html', target='_blank', style='color:#f00011') 手机看新闻
+      b
+        a(href='http://zhouenlai.people.com.cn', target='_blank', style='color:#b96e01;') 周恩来纪念网
+</template>
+
+
+<style lang="less">
+.channel-bar {
+  height: 180px;
+  width: 100%;
+  background-color: #e70012;
+  font-family: "宋体";
+}
+.left-item {
+  background-image: url('@|bar-left-item.png|');
+}
+.text-bar {
+  line-height: 40px;
+  height: 40px;
+}
+li {
+  float: left;
+  font-size: 13px;
+}
+li, b {
+  margin-right: 4px;
+}
+a:link, a:visited {
+  color: #000;
+  text-decoration: none;
+}
+.left {
+  width: 245px;
+  overflow: hidden;
+}
+.right {
+  width: 345px;
+  overflow: hidden;
+}
+ul {
+  width: 410px;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+</style>
