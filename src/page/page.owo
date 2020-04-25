@@ -14,7 +14,7 @@
       .h35
   .w1000
     .h35
-    plug(_name="titleBar" _src="./src/moudle/titleBar.owo")
+    plug(_name="titleBar" _src="./src/moudle/titleBar.owo" _text1="新闻" _text2="策划")
     .h10
     .xwch.clear
       plug(_name="imageAndText" _src="https://template.owo.ink/4b9900afb3b679f4.owo")
@@ -27,7 +27,46 @@
   .gray
     .w1000
       .h35
-      plug(_name="titleBar" _src="./src/moudle/titleBar.owo")
+      plug(_name="titleBar" _src="./src/moudle/titleBar.owo" _text1="活动" _text2="策划")
+      plug(_name="show-x3" _src="./src/moudle/show-x3.owo")
+      .h35
+  .w1000
+    .h35
+    plug(_name="titleBar" _src="./src/moudle/titleBar.owo" _text1="直播" _text2="访谈")
+  .gray
+    .w1000
+      .h35
+      plug(_name="titleBar" _src="./src/moudle/titleBar.owo" _text1="外宣" _text2="平台")
+      ul.waixuan.block-box.clear
+        li
+          a(href="#")
+            img(src="@|show-4.png|" width="310" height="80")
+        li
+          a(href="#")
+            img(src="@|show-4.png|" width="310" height="80")
+        li
+          a(href="#")
+            img(src="@|show-4.png|" width="310" height="80")
+        li
+          a(href="#")
+            img(src="@|show-4.png|" width="310" height="80")
+        li
+          a(href="#")
+            img(src="@|show-4.png|" width="310" height="80")
+        li
+          a(href="#")
+            img(src="@|show-4.png|" width="310" height="80")
+      .h35
+  .w1000
+    .h35
+    plug(_name="titleBar" _src="./src/moudle/titleBar.owo" _text1="经典" _text2="回顾")
+    .h35
+    plug(_name="自主插件的3D轮播图.owo" _src="https://template.owo.ink/0e446b29a4c2649b.owo")
+    .h35
+  .gray
+    .w1000
+      .h35
+      plug(_name="titleBar" _src="./src/moudle/titleBar.owo" _text1="品牌" _text2="推广")
 </template>
 
 <script>
@@ -58,5 +97,13 @@ a {
 }
 .xwch .image-show:nth-child(3n) {
   margin-right: 0;
+}
+.waixuan {
+  li {
+    width: 310px;
+    height: 80px;
+    float: left;
+    margin: 15px 11px;
+  }
 }
 </style>

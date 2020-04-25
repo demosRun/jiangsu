@@ -85,6 +85,10 @@
 			"name": "main",
 			"src": "./src/main.js",
 			"resource": true
+		},
+		{
+			"name": "swiper3D",
+			"src": "./owo_modules/swiper3D.js"
 		}
 	],
 	"styleList": [

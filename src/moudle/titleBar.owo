@@ -1,7 +1,7 @@
 <template lang="pug">
 .title-bar
-  span(style="color: #e70012;") 新闻
-  span 策划
+  span(style="color: #e70012;") {{prop._text1}}
+  span {{prop._text2}}
   a.more(href="#") 更多+
 </template>
 
