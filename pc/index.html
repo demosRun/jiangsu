@@ -185,31 +185,31 @@
       <div class="w1000">
         <div class="left-item fl">专题频道</div>
         <div class="channel-bar-item fl">
-          <a href="#">
+          <a href="#xwch">
             <img src="./static/resource/xwch_icon.png" o-hover="bounce-in">
             <span>新闻策划</span>
           </a>
         </div>
         <div class="channel-bar-item fl">
-          <a href="#">
+          <a href="#hdch">
             <img src="./static/resource/zbft_cion.png" o-hover="bounce-in">
             <span>活动策划</span>
           </a>
         </div>
         <div class="channel-bar-item fl">
-          <a href="#">
+          <a href="#zbft">
             <img src="./static/resource/gdft01.png" o-hover="bounce-in">
             <span>直播访谈</span>
           </a>
         </div>
         <div class="channel-bar-item fl">
-          <a href="#">
+          <a href="#wxpt">
             <img src="./static/resource/pptg_icon.png" o-hover="bounce-in">
             <span>外宣平台</span>
           </a>
         </div>
         <div class="channel-bar-item fl">
-          <a href="#">
+          <a href="#pttg">
             <img src="./static/resource/wxpt_icon.png" o-hover="bounce-in">
             <span>平台推广</span>
           </a>
@@ -243,6 +243,8 @@
         <div class="h35"></div>
       </div>
     </div>
+    <!-- 新闻策划 -->
+    <a name="xwch"></a>
     <div class="w1000">
       <div class="h35"></div>
       <div class="title-bar" template="titleBar">
@@ -303,6 +305,7 @@
         <div class="h10"></div>
       </div>
     </div>
+    <a name="hdch"></a>
     <div class="gray">
       <div class="w1000">
         <div class="h35"></div>
@@ -336,6 +339,7 @@
         <div class="h35"></div>
       </div>
     </div>
+    <a name="zbft"></a>
     <div class="w1000">
       <div class="h35"></div>
       <div class="title-bar" template="titleBar-2">
@@ -348,7 +352,7 @@
         <div class="left fl">
           <div class="video-image-box">
             <script src="http://tv.people.com.cn/img/player/v.js"></script>
-            <script>showPlayer({id:"/pvservice/xml/2020/4/24/29a07d27-2bd2-4739-b144-88adde471e7c.xml",width:540,height:356});</script>
+            <script>showPlayer({id:"/pvservice/xml/2020/4/24/29a07d27-2bd2-4739-b144-88adde471e7c.xml", width: 540, height: 356});</script>
           </div>
           <p>
             <span style="color: red;">【视频访谈】</span>江苏高校访谈录江苏高校访谈录江苏高校访谈录江苏高校访谈录江苏高校访谈录江苏高校访谈录江苏高校访谈录江苏高校访谈录江苏高校访谈录江苏高校访谈录江苏高校访谈录
@@ -386,6 +390,7 @@
       </div>
       <div class="h10"></div>
     </div>
+    <a name="wxpt"></a>
     <div class="gray">
       <div class="w1000">
         <div class="h35"></div>
@@ -429,6 +434,7 @@
         <div class="h35"></div>
       </div>
     </div>
+    
     <div class="w1000">
       <div class="h35"></div>
       <div class="title-bar" template="titleBar-4">
@@ -495,6 +501,7 @@
       </div>
       <div class="h35"></div>
     </div>
+    <a name="pttg"></a>
     <div class="gray">
       <div class="w1000">
         <div class="h35"></div>
@@ -504,7 +511,7 @@
           <a class="more" href="#">更多+</a>
         </div>
         <div class="h10"></div>
-        <div class="LbWMGSGs" template="视频链接轮播图">
+        <div class="LbWMGSGs" template="videoSwiper">
           <div class="swiper-container">
             <div class="swiper-wrapper">
               <div class="swiper-slide card">
@@ -827,7 +834,7 @@
           "titleBar-5": {
             "type": "plug"
           },
-          "视频链接轮播图": {
+          "videoSwiper": {
             "created": function created() {
               var cont = this.$el.getElementsByClassName('swiper-container')[0];
               this.data.swiper = new Swiper(cont, {

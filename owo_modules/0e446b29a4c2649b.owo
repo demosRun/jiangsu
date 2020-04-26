@@ -43,8 +43,8 @@
     created: function () {
       this.data.swiperIt = swiperIt.init(this.query('.swiper-3d'), {
         autoplay: 3000,
-        showSlider: 5,
-        width: 77.4,
+        showSlider: _owo.isMobi ? 3 : 5,
+        width: _owo.isMobi ? 90 : 77.4,
         step: 0.7
       })
     }

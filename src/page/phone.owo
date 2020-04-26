@@ -145,13 +145,24 @@
 
 .conn .swiper-3d {
   width: 100%;
-  height: 40vw;
+  height: 56vw;
 }
 .LbWMGSGs {
   width: 100%;
-  .swiper-container, .swiper-container {
+  height: 90vw;
+  .swiper-wrapper {
+    height: 70vw;
+  }
+  .swiper-container {
     width: 100%;
+    height: 70vw;
     margin: 0 auto;
+    .swiper-item {
+      width: 100%;
+      img {
+        height: 54vw;
+      }
+    }
   }
 }
 #copyright {
