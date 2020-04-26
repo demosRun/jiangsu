@@ -37,7 +37,7 @@ img {
 .title-bar {
   height: 55px;
   font-weight: bold;
-  background-color: #fef2f3;
+  background-color: #f1e6e7;
   border-top: 5px solid #e70012;
   line-height: 55px;
   text-align: center;

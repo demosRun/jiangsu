@@ -1,0 +1,184 @@
+<template lang="pug">
+.linksbg
+  //- 分站与友情链接
+  section.links.clearfix
+    .w1000.clearfix
+      strong 国内分站
+      p#rmw_guonei.gn
+        a(href='http://bj.people.com.cn/', target='_blank') 北京
+        a(href='http://tj.people.com.cn/ ', target='_blank') 天津
+        a(href='http://he.people.com.cn/', target='_blank') 河北
+        a(href='http://sx.people.com.cn/', target='_blank') 山西
+        a(href='http://nm.people.com.cn/', target='_blank') 内蒙古
+        a(href='http://ln.people.com.cn/', target='_blank') 辽宁
+        a(href='http://jl.people.com.cn/', target='_blank') 吉林
+        a(href='http://hlj.people.com.cn/', target='_blank') 黑龙江
+        a(href='http://sh.people.com.cn/', target='_blank') 上海
+        a(href='http://js.people.com.cn', target='_blank') 江苏
+        a(href='http://zj.people.com.cn/', target='_blank') 浙江
+        a(href='http://ah.people.com.cn/', target='_blank') 安徽
+        a(href='http://fj.people.com.cn/', target='_blank') 福建
+        a(href='http://jx.people.com.cn/', target='_blank') 江西
+        a(href='http://sd.people.com.cn/', target='_blank') 山东
+        a(href='http://henan.people.com.cn/', target='_blank') 河南
+        br
+        a(href='http://hb.people.com.cn/', target='_blank') 湖北
+        a(href='http://hn.people.com.cn/', target='_blank') 湖南
+        a(href='http://gd.people.com.cn/', target='_blank') 广东
+        a(href='http://gx.people.com.cn/', target='_blank') 广西
+        a(href='http://hi.people.com.cn/', target='_blank') 海南
+        a(href='http://cq.people.com.cn/', target='_blank') 重庆
+        a(href='http://sc.people.com.cn/', target='_blank') 四川
+        a(href='http://gz.people.com.cn/', target='_blank') 贵州
+        a(href='http://yn.people.com.cn/', target='_blank') 云南
+        a(href='http://xz.people.com.cn/', target='_blank') 西藏
+        a(href='http://sn.people.com.cn/', target='_blank') 陕西
+        a(href='http://gs.people.com.cn/', target='_blank') 甘肃
+        a(href='http://qh.people.com.cn/', target='_blank') 青海
+        a(href='http://nx.people.com.cn/', target='_blank') 宁夏
+        a(href='http://xj.people.com.cn/', target='_blank') 新疆
+        a(href='http://sz.people.com.cn/', target='_blank') 深圳
+        br
+        a(href='http://unn.people.com.cn/GB/422044/index.html', target='_blank') 地方频道人员名单
+      p
+      strong 全球分站
+      p#rmw_quanqiu.quan
+        a(href='http://japan.people.com.cn/', target='_blank') 日本
+        a(href='http://usa.people.com.cn/', target='_blank') 美国
+        a(href='http://uk.people.com.cn/', target='_blank') 英国
+        a(href='http://ru.people.com.cn/', target='_blank') 俄罗斯
+        a(href='http://korea.people.com.cn/', target='_blank') 韩国
+        br
+        a(href='http://australia.people.com.cn/', target='_blank') 澳大利亚
+        a(href='http://nordic.people.cn', target='_blank') 北欧
+    .f_link.w1000.clearfix
+      strong 友情链接
+      p
+        a(href='http://www.jiangsu.gov.cn', target='_blank') 江苏省政府
+        a(href='http://xh.xhby.net', target='_blank') 新华日报
+        a(href='http://www.jsbc.com', target='_blank') 江苏广电
+        a(href='http://njrb.njdaily.cn/', target='_blank') 南京日报
+        a(href='http://www.yangtse.com', target='_blank') 扬子晚报
+        a(href='http://kb.dsqq.cn', target='_blank') 现代快报
+        a(href='http://jlwb.njnews.cn', target='_blank') 金陵晚报
+        a(href='http://www.js.xinhuanet.com', target='_blank') 新华网江苏频道
+        a(href='http://www.jschina.com.cn', target='_blank') 中国江苏网
+        a(href='http://jiangsu.sina.com.cn/', target='_blank') 新浪江苏
+        a(href='http://www.longhoo.net', target='_blank') 龙虎网
+        a(href='http://www.njdaily.cn', target='_blank') 南报网
+    .lxwm
+      a(href='http://js.people.com.cn/GB/384224/index.html', target='_blank') 关于我们
+      |  
+      a(href='http://js.people.com.cn/GB/384224/384229/index.html', target='_blank') 产品与服务
+      |  
+      a(href='http://js.people.com.cn/GB/384224/384230/index.html', target='_blank') 本网员工
+      |   
+      a(href='http://js.people.com.cn/GB/384224/384226/index.html#aa_4', target='_blank') 本网优势
+      | 
+      a(href='http://js.people.com.cn/GB/384224/384231/index.html', target='_blank') 联系我们
+      |  
+      a(href='http://js.people.com.cn/n2/2019/0410/c358232-32828107.html', target='_blank') 本网招聘
+      |  
+      a(href='http://js.people.com.cn/GB/360446/362405/377471/index.html', target='_blank') 本网法律顾问：江苏德擎律师事务所 王树平律师
+      br
+      | 地址：江苏省南京市玄武大道699-19号徐庄软件园环园中路1栋人民日报社江苏分社 |  电话：025—85582800 85582899（传真） | 投稿信箱：news@jspeople.com
+  // 版权
+  footer.clearfix
+    p
+      a(href='http://www.people.com.cn/GB/1018/22259/index.html', target='_blank') 人民日报社概况
+      span.xian |
+      a(href='http://www.people.com.cn/GB/50142/420117/index.html', target='_blank') 关于人民网
+      span.xian |
+      a(href='http://hr.peopledaily.com.cn/', target='_blank') 报社招聘
+      span.xian |
+      a(href='http://www.people.com.cn/GB/1018/245490/index.html', target='_blank') 招聘英才
+      span.xian |
+      a(href='http://www.people.com.cn/GB/208743/403202/index.html', target='_blank') 广告服务
+      span.xian |
+      a(href='http://www.people.com.cn/GB/208743/403202/403212/index.html', target='_blank') 合作加盟
+      span.xian |
+      a(href='http://gonggao.people.com.cn/', target='_blank') 供稿服务
+      span.xian |
+      a(href='http://www.people.com.cn/n/2013/1227/c373005-23961344.html', target='_blank') 网站声明
+      span.xian |
+      a(href='http://www.people.com.cn/n1/2019/0308/c420117-30965009.html', target='_blank') 网站律师
+      span.xian |
+      a(href='http://sso.people.com.cn/resource/html/userInforPro.html', target='_blank') 信息保护
+      span.xian |
+      a(href='http://kf.people.com.cn/', target='_blank') 呼叫中心
+      span.xian |
+      a(href='http://english.peopledaily.com.cn/', target='_blank') ENGLISH
+    p
+      | 镜像:
+      a(href='http://www.people.com.cn/', target='_blank') 日本
+      a(href='http://www.peopledaily.edu.cn/', target='_blank') 教育网
+      a(href='http://www.peopledaily.ac.cn/') 科技网
+      |   呼叫热线：4008-100-300  服务邮箱：
+      a(href='mailto:kf@people.cn', target='_blank') kf@people.cn
+      |   违法和不良信息举报电话：010-65363263  举报邮箱：
+      a(href='mailto:jubao@people.cn', target='_blank') jubao@people.cn
+    p
+      a(href='http://www.people.com.cn/img/2014xuke/2018hlwxw.html', target='_blank') 互联网新闻信息服务许可证10120170001
+      span.xian |
+      a(href='http://www.people.com.cn/img/2014xuke/2018zzdxxkz.html', target='_blank') 增值电信业务经营许可证B1-20060139
+    p
+      a(href='http://www.people.com.cn/img/2011zzzs/2018xxwlcb.htm', target='_blank') 信息网络传播视听节目许可证0104065
+      span.xian |
+      a(href='http://www.people.com.cn/img/2019peopleindex/html/gbds2019.html', target='_blank') 广播电视节目制作经营许可证（广媒）字第172号
+    p
+      a(href='http://www.people.com.cn/img/2014xuke/2018wlwh.html', target='_blank') 网络文化经营许可证 京网文[2017]9786-1126号
+      span.xian |
+      a(href='http://www.people.com.cn/img/2014xuke/2018wlcb.html', target='_blank') 网络出版服务许可证（京）字258号
+      span.xian |
+      a(href='http://www.people.com.cn/img/2014xuke/2018icp.html', target='_blank') 京ICP证000006号
+      span.xian |
+      a(href='http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11000002000008', target='_blank') 京公网安备11000002000008号
+    p.mt30
+      | 人 民 网 版 权 所 有 ，未 经 书 面 授 权 禁 止 使 用
+      br
+      | Copyright © 1997-2020 by www.people.com.cn. all rights reserved
+    p.mt30
+      a(href='http://www.hd315.gov.cn/beian/view.asp?bianhao=0102000101300040', target='_blank')
+        img(src='http://www.people.com.cn/img/2016people/images/copy_icon1.jpg')
+      a(href='https://ss.knet.cn/verifyseal.dll?sn=e12050911010020686307708&ct=df&a=1&pa=980951', target='_blank')
+        img(src='http://www.people.com.cn/img/2016people/images/copy_icon2.jpg')
+      a(href='http://si.trustutn.org/info?sn=470170320027574551118&certType=1', target='_blank')
+        img(src='http://www.people.com.cn/img/2016people/images/copy_icon3.jpg')
+      a(href='http://www.itrust.org.cn/home/index/itrust_certifi/wm/2710933198.html', target='_blank')
+        img(src='http://www.people.com.cn/img/2016people/images/copy_icon4.jpg')
+</template>
+
+
+<style>
+.linksbg{  overflow:hidden; background:#f7f7f7; padding:20px 0; text-align:center; width:100%; min-width:1000px;font: normal 12px/180% "宋体";}
+.copyright{ text-align:center; color:#9c9c9c;padding:10px 0;}
+.links{padding:15px 0 10px 0;width:1000px; margin:0 auto;}
+.links a:link,.links a:visited,.links a:hover{color:#000}
+.links strong{float:left;color:#ccc;font-weight:normal;display:block;width:75px;height:auto;}
+.links p.gn{float:left;width:570px;margin-right:5px;padding-right:20px;border-left:1px solid #d5d5d5;padding-left:20px;line-height:200%;font-size:12px; height:72px;}
+.links p.gn a:link,.links p.gn a:visited,.links p.gn a:hover{font-size:12px;}
+.links p.quan{border-left:1px solid #d5d5d5;padding-left:20px;float:right;line-height:200%;}
+.links strong{color:#000;}
+.links p a{margin-right:10px;}
+.links p{line-height:25px;}
+.f_link{padding:15px 0;margin-top:10px;}
+.f_link p{float:left;width:890px;line-height:30px;border-left:1px solid #d5d5d5;padding-left:20px;}
+.cai{height:190px;overflow:hidden;}
+footer{width:1000px;border-top:1px solid #d5d5d5;height:auto;margin:0 auto;padding-top:10px;text-align:center;height:auto;line-height:28px;color:#000;font-family:'SimSun'; min-width:1000px;}
+footer p{margin-top:22px;line-height:100%; height:12px;}
+footer p span.xian{color:#d8d8d8;margin: 0 5px;}
+footer p.mt30{margin-top:30px;position:relative;line-height:200%; height:48px;}
+footer p.mt30 span#beian{position:absolute;right:220px;top:0px;}
+footer p.mt30 span#kxwz{position:absolute;right:80px;top:0px;}
+footer a:link,footer a:visited,footer a:hover{color:#000;}
+.lxwm {
+  text-align: left;
+  line-height: 30px;
+}
+.gn, .quan, .f_link p {
+  text-align: left;
+}
+.mt30 a {
+  margin: 0 10px;
+}
+</style>

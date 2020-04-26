@@ -22,6 +22,7 @@ module.exports = {
     setTimeout(() => {
       const dom = this.$el.getElementsByClassName('swiper-container')[0]
       this.data.swiper = new Swiper(dom, {
+        autoplay: 3000,
         loop: true,
         grabCursor: true,
         paginationClickable: true

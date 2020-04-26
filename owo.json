@@ -89,6 +89,10 @@
 		{
 			"name": "swiper3D",
 			"src": "./owo_modules/swiper3D.js"
+		},
+		{
+			"name": "check",
+			"src": "./owo_modules/check.js"
 		}
 	],
 	"styleList": [

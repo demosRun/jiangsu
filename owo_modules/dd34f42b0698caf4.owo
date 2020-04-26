@@ -1,0 +1,159 @@
+<template>
+  <div class="LbWMGSGs">
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide card" :for="data.swiperList">
+          <div class="swiper-item" >
+            <a href="#">
+              <img width="300" height="170" src="{value.image}"/>
+              <div class="image-title">{value.title}</div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pagination clear"></div>
+  </div>
+</template>
+
+<script>
+  module.exports = {
+    created: function () {
+      const cont = this.$el.getElementsByClassName('swiper-container')[0]
+      this.data.swiper = new Swiper(cont, {
+        "loop":true,
+        "autoplay":3000,
+        "slidesPerView":3,
+        pagination: this.$el.getElementsByClassName('pagination')[0],
+        paginationClickable: true,
+      })
+    },
+    data: {
+      swiper: null,
+      swiperList: [
+        {"image":"http://www.people.com.cn/NMediaFile/2019/1226/MAIN201912260907120738032280874.jpg","title":"<span style='color: red;'>[标题内容] </span>中国冰雕亮相莫斯科"},
+        {"image":"http://www.people.com.cn/NMediaFile/2019/1226/MAIN201912260907113668180928777.jpg","title":"云南星云湖开湖捕鱼忙"},
+        {"image":"http://www.people.com.cn/NMediaFile/2019/1226/MAIN201912260907113668180928777.jpg","title":"探访新中国首个名人纪念馆上海鲁迅纪念馆"},
+        {"image":"http://www.people.com.cn/NMediaFile/2019/1226/MAIN201912260907110150545385955.jpg","title":"呼伦贝尔：燃情雪橇激情冬日"},
+        {"image":"http://www.people.com.cn/NMediaFile/2019/1225/MAIN201912250710121236217686613.jpg","title":"连云港：“海上菜园”收割忙"}
+      ]
+    },
+    swiperNext: function () {
+      // console.log('swiperNext')
+      this.data.swiper.swipeNext ? this.data.swiper.swipeNext() : this.data.swiper.slideNext()
+    },
+    swiperPrev: function () {
+      // console.log('swiperPrev')
+      this.data.swiper.swipePrev ? this.data.swiper.swipePrev(): this.data.swiper.slidePrev()
+    }
+  }
+</script>
+
+<style lang="less">
+  .LbWMGSGs {
+    height: 280px;
+    width: 1000px;
+    position: relative;
+    color: #333333;
+    .swiper-container {
+      height: 100%;
+      width: 1050px;
+      margin-left: -25px;
+      position: relative;
+      height: 220px;
+      padding-bottom: 10px;
+      .swiper-item {
+        width: 300px;
+        height: 100%;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        background-color: white;
+        box-shadow: 1px 1px 10px #ccc;
+      }
+    }
+    .swiper-wrapper {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  .LbWMGSGs {
+    position: relative;
+    .swiper-button {
+      position: absolute;
+      top: 0;
+      bottom: 30px;
+      margin: auto;
+      cursor: pointer;
+      z-index: 999;
+      background-image: none;
+    }
+    .swiper-button-next {
+      right: 0;
+      transform: rotate(180deg);
+    }
+    .swiper-button-prev {
+      left: 0;
+    }
+  }
+  a {
+    color: #333333;
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    img {
+      width: 100%;
+      height: 170px;
+      margin: 0 auto;
+      display: block;
+    }
+  }
+  a:hover {
+    color: #333333;
+  }
+  .image-title {
+    overflow: hidden;
+    line-height: 20px;
+    font-size: 16px;
+    width: 96%;
+    margin: 0 auto;
+    height: 50px;
+    padding: 5px 2%;
+    font-weight: bold;
+  }
+  .swiper-slide {
+    position: relative;
+    .play-button {
+      position: absolute;
+      width: auto;
+      height: auto;
+      bottom: 60px;
+      left: 10px;
+    }
+  }
+  .pagination {
+    width: 100%;
+    height: 16px;
+    z-index: 9;
+    margin: 15px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .swiper-pagination-switch {
+    width: 16px;
+    height: 16px;
+    background-color: #cccccc;
+    float: left;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  .swiper-active-switch {
+    background-color: #e60012;
+  }
+</style>
