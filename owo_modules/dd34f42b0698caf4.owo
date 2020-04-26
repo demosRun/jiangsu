@@ -23,7 +23,7 @@
       this.data.swiper = new Swiper(cont, {
         "loop":true,
         "autoplay":3000,
-        "slidesPerView":3,
+        "slidesPerView": _owo.isMobi ? 1 : 3,
         pagination: this.$el.getElementsByClassName('pagination')[0],
         paginationClickable: true,
       })

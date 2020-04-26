@@ -1,0 +1,45 @@
+<template lang="pug">
+ul.phone-top-bar.clear
+  li.active
+    a(href="#") 专题首页
+  li
+    a(href="#") 新闻策划
+  li
+    a(href="#") 活动策划
+  li
+    a(href="#") 直播访谈
+  li
+    a(href="#") 外宣平台
+  li
+    a(href="#") 品牌推广
+</template>
+
+
+<style lang="less">
+.phone-top-bar {
+  background-color: #fff0f0;
+  border-bottom: 1px solid #e5d8d8;
+  color: #000000;
+}
+a {
+  display: block;
+  color: #000000;
+}
+li {
+  float: left;
+  width: 33.3%;
+  text-align: center;
+  height: 40px;
+  line-height: 40px;
+  font-size: 18px;
+  box-sizing: border-box;
+}
+li.active {
+  background-color: white;
+  border-bottom: 3px solid #e60012;
+  color: #e60012;
+  a {
+    color: #e60012;
+  }
+}
+</style>

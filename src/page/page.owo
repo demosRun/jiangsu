@@ -96,7 +96,7 @@
       .h10
       plug(_name="视频链接轮播图" _src="https://template.owo.ink/dd34f42b0698caf4.owo")
       .h35
-  plug.no-phone(_name="linksbg" _src="./src/moudle/linksbg.owo")
+  plug(_name="linksbg" _src="./src/moudle/linksbg.owo")
 </template>
 
 <script>

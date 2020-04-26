@@ -1,0 +1,91 @@
+<template lang="pug">
+.zbft.clear
+  .left.fl
+    .video-image-box
+    p <span style="color: red;">【视频访谈】</span>江苏高校访谈录江苏高校访谈录江苏高校访谈录江苏高校访谈录江苏高校访谈录江苏高校访谈录江苏高校访谈录江苏高校访谈录江苏高校访谈录江苏高校访谈录江苏高校访谈录
+  ul.right.fl
+    li
+      a(href="#")
+        img(src="http://js.people.com.cn/NMediaFile/2020/0423/LOCAL202004231704251146980522793.jpg" width="210" height="126")
+        .info
+          h3 首届中国县域数字经济高峰论坛暨2019县域新型智慧城市发展论坛
+          h4 2019.10.30
+    li
+      a(href="#")
+        img(src="http://js.people.com.cn/NMediaFile/2020/0423/LOCAL202004231704251146980522793.jpg" width="210" height="126")
+        .info
+          h3 首届中国县域数字经济高峰论坛暨2019县域新型智慧城市发展论坛
+          h4 2019.10.30
+    li
+      a(href="#")
+        img(src="http://js.people.com.cn/NMediaFile/2020/0423/LOCAL202004231704251146980522793.jpg" width="210" height="126")
+        .info
+          h3 首届中国县域数字经济高峰论坛暨2019县域新型智慧城市发展论坛
+          h4 2019.10.30
+</template>
+
+
+<style lang="less">
+.zbft {
+  .left {
+    width: 540px;
+    p {
+      line-height: 30px;
+      font-size: 18px;
+      font-weight: bold;
+      height: 60px;
+      overflow: hidden;
+    }
+  }
+  .right {
+    width: 440px;
+    margin-left: 20px;
+    img, .info {
+      float: left;
+    }
+    .info {
+      width: 220px;
+      margin-left: 10px;
+      color: #333333;
+      h3 {
+        height: 90px;
+      }
+      h4 {
+        background-image: url('@|clock.png|');
+        line-height: 35px;
+        background-repeat: no-repeat;
+        background-position: left center;
+        padding-left: 35px;
+        color: #666666;
+        border-bottom: 1px dotted #ccc;
+        font-size: 17px;
+        font-weight: normal;
+      }
+    }
+    a {
+      display: block;
+    }
+    li {
+      margin-bottom: 15px;
+    }
+    a:after, li:after {
+      content: "";
+      height: 0;
+      line-height: 0;
+      display: block;
+      visibility: hidden;
+      clear: both;
+    }
+  }
+}
+.video-image-box {
+  width: 540px;
+  height: 356px;
+  object, img, a, video {
+    display: block;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+}
+</style>

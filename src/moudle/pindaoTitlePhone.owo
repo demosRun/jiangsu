@@ -1,0 +1,43 @@
+<template lang="pug">
+.pindao-title-phone
+  .logo
+    a(href='http://www.people.com.cn/', target='_blank')
+      img(src='@|logodf.png|', width='126', height='47')
+    a(href='http://js.people.com.cn', target='_blank')
+      | 江苏频道
+  a(href="#") PC版
+</template>
+
+
+<style lang="less">
+.pindao-title-phone {
+  height: 45px;
+  background-color: #e60012;
+}
+a, img {
+  display: block;
+  color: white;
+}
+.logo {
+  display: flex;
+  line-height: 47px;
+  color: white;
+  align-items: center;
+  font-size: 14px;
+  img {
+    height: 34px;
+    width: auto;
+    margin-right: 10px;
+  }
+}
+.pindao-title-phone {
+  height: 45px;
+  background-color: #e60012;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 3%;
+  line-height: 45px;
+  align-items: center;
+  font-size: 16px;
+}
+</style>

@@ -1,0 +1,162 @@
+<template lang="pug">
+.home
+  plug(_name="pindaoTitlePhone" _src="./src/moudle/pindaoTitlePhone.owo")
+  plug(_name="phoneTopBar" _src="./src/phone/phoneTopBar.owo")
+  .gray
+    plug(_name="high1" _src="https://template.owo.ink/5bea191afe019c5c.owo")
+    .h10
+  .w96
+    .h10
+    plug(_name="titleBar" _src="./src/moudle/titleBar.owo" _text1="新闻" _text2="策划")
+    .xwch.clear
+      plug(_name="imageAndText" _src="https://template.owo.ink/4b9900afb3b679f4.owo")
+      plug(_name="imageAndText" _src="https://template.owo.ink/4b9900afb3b679f4.owo")
+      plug(_name="imageAndText" _src="https://template.owo.ink/4b9900afb3b679f4.owo")
+      plug(_name="imageAndText" _src="https://template.owo.ink/4b9900afb3b679f4.owo")
+      plug(_name="imageAndText" _src="https://template.owo.ink/4b9900afb3b679f4.owo")
+      plug(_name="imageAndText" _src="https://template.owo.ink/4b9900afb3b679f4.owo")
+    .h10
+  .gray
+    .w96
+      .h10
+      plug(_name="titleBar" _src="./src/moudle/titleBar.owo" _text1="活动" _text2="策划")
+      .h10
+      plug(_name="showx3" _src="./src/moudle/showx3.owo")
+      .h10
+  .w96
+    .h10
+    plug(_name="titleBar" _src="./src/moudle/titleBar.owo" _text1="直播" _text2="访谈")
+    .h10
+    plug(_name="zbft" _src="./src/phone/zbft.owo")
+  .gray
+    .w96
+      .h10
+      plug(_name="titleBar" _src="./src/moudle/titleBar.owo" _text1="外宣" _text2="平台")
+      ul.waixuan.block-box.clear
+        li
+          a(href="#")
+            img(src="@|show-4.png|" width="310" height="80")
+        li
+          a(href="#")
+            img(src="@|show-4.png|" width="310" height="80")
+        li
+          a(href="#")
+            img(src="@|show-4.png|" width="310" height="80")
+        li
+          a(href="#")
+            img(src="@|show-4.png|" width="310" height="80")
+        li
+          a(href="#")
+            img(src="@|show-4.png|" width="310" height="80")
+        li
+          a(href="#")
+            img(src="@|show-4.png|" width="310" height="80")
+      .h10
+  .w96
+    .h10
+    plug(_name="自主插件的3D轮播图.owo" _src="https://template.owo.ink/0e446b29a4c2649b.owo")
+    .h10
+  .gray
+    .w96
+      plug(_name="titleBar" _src="./src/moudle/titleBar.owo" _text1="品牌" _text2="推广")
+      .h10
+      plug(_name="视频链接轮播图" _src="https://template.owo.ink/dd34f42b0698caf4.owo")
+  plug(_name="copyright" _src="https://template.owo.ink/060579f0b4f1bcaa.owo")
+</template>
+
+<script>
+  module.exports = {
+    created: function () {
+
+    }
+  }
+</script>
+
+
+<style lang="less">
+.gray {
+  background-color: #f2f2f2;
+}
+.title-bar {
+  margin: 0 auto;
+  height: 40px;
+  line-height: 40px;
+  font-size: 23px;
+}
+.image-show {
+  width: 50%;
+  float: left;
+  img {
+    width: 98%;
+    height: 30vw;
+  }
+  h4 {
+    font-size: 14px;
+    line-height: 20px;
+    height: 40px;
+  }
+}
+
+.zbft {
+  .left {
+    width: 100%;
+    p {
+      background-color: #f2f2f2;
+      font-size: 14px;
+      line-height: 22px;
+      height: 66px;
+    }
+  }
+  .right {
+    margin: 0;
+    margin-top: 10px;
+    img {
+      width: 33%;
+      height: auto;
+    }
+    .info {
+      width: calc(67% - 88px);
+      h3 {
+        height: 70px;
+        font-size: 14px;
+      }
+      h4 {
+        font-size: 14px;
+        background-size: 18px;
+        padding-left: 25px;
+        line-height: 25px;
+      }
+    }
+  }
+  .video-image-box {
+    width: 100%;
+    height: 63vw;
+  }
+}
+
+.waixuan {
+  li {
+    float: left;
+    width: 98%;
+    margin: 2% 1%;
+    height: 25vw;
+  }
+}
+
+.conn .swiper-3d {
+  width: 100%;
+  height: 40vw;
+}
+.LbWMGSGs {
+  width: 100%;
+  .swiper-container, .swiper-container {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+#copyright {
+  padding: 30px 0;
+  background-color: #e60012;
+  color: white;
+}
+</style>
