@@ -5,7 +5,7 @@
       img(src='@|logodf.png|', width='126', height='47')
     a(href='http://js.people.com.cn', target='_blank')
       | 江苏频道
-  a(href="#") PC版
+  a(href="?usePc") PC版
 </template>
 
 

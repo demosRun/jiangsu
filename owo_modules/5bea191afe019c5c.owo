@@ -5,9 +5,24 @@
     <div class="swiper-container">
       <div class="swiper-wrapper">
         <!-- 插入图片 宽度: 860px 高度: 430px -->
-        <div class="swiper-slide"><img src="http://www.people.com.cn/NMediaFile/2019/0621/MAIN201906210855032980489526259.jpg" width="860" height="430" alt="" /><span>1.舞蹈演员们现场表演以“惠安女”为原型的群体舞蹈。（摄影：陈嘉姚）</span></div>
-        <div class="swiper-slide"><img src="http://www.people.com.cn/NMediaFile/2019/0621/MAIN201906211017498979737378275.jpg" width="860" height="430" alt="" /><span>2.舞蹈演员们现场表演以“惠安女”为原型的群体舞蹈。（摄影：陈嘉姚）</span></div>
-        <div class="swiper-slide"><img src="http://www.people.com.cn/NMediaFile/2019/0621/MAIN201906210856213440704882887.jpg" width="860" height="430" alt="" /><span>3.舞蹈演员们现场表演以“惠安女”为原型的群体舞蹈。（摄影：陈嘉姚）</span></div>
+        <div class="swiper-slide">
+          <div class="picl" style=" width:860px; height: 430px">
+            <img src="http://www.people.com.cn/NMediaFile/2019/0621/MAIN201906210855032980489526259.jpg" width="860" height="430" alt="">
+          </div>
+          <span>1.舞蹈演员们现场表演以“惠安女”为原型的群体舞蹈。（摄影：陈嘉姚）</span>
+        </div>
+        <div class="swiper-slide">
+          <div class="picl" style=" width:860px; height: 430px">
+            <img src="http://www.people.com.cn/NMediaFile/2019/0621/MAIN201906211017498979737378275.jpg" width="860" height="430" alt="" />
+          </div>
+          <span>2.舞蹈演员们现场表演以“惠安女”为原型的群体舞蹈。（摄影：陈嘉姚）</span>
+        </div>
+        <div class="swiper-slide">
+          <div class="picl" style=" width:860px; height: 430px">
+            <img src="http://www.people.com.cn/NMediaFile/2019/0621/MAIN201906210856213440704882887.jpg" width="860" height="430" alt="" />
+          </div>
+          <span>3.舞蹈演员们现场表演以“惠安女”为原型的群体舞蹈。（摄影：陈嘉姚）</span>
+        </div>
       </div>
     </div>
   </div>

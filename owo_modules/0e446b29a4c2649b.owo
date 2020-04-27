@@ -4,9 +4,11 @@
     li
       a(href="#")
         img(width="738" height="450" src="https://cunchu.site/owo/material/synopsis/image-1.jpg")
+        span 北京市4.9万余名高三学生开学复课
     li
       a(href="#")
         img(width="738" height="450" src="http://www.people.com.cn/NMediaFile/2020/0324/MAIN202003241016325073558905659.jpg")
+        span 北京通州运河城市段游船开航北京通州运河城市段游船开航北京通州运河城市段游船开航北京通州运河城市段游船开航
     li
       a(href="#")
         img(width="738" height="450" src="http://www.people.com.cn/NMediaFile/2020/0324/MAIN202003241016325073558905659.jpg")
@@ -43,8 +45,8 @@
     created: function () {
       this.data.swiperIt = swiperIt.init(this.query('.swiper-3d'), {
         autoplay: 3000,
-        showSlider: _owo.isMobi ? 3 : 5,
-        width: _owo.isMobi ? 90 : 77.4,
+        showSlider: !screenInfo.isPc ? 3 : 5,
+        width: !screenInfo.isPc ? 90 : 77.4,
         step: 0.7
       })
     }
@@ -75,6 +77,16 @@
   height: 450px;
   transition: all 0.4s linear;
   box-shadow: 1px 1px 10px #564949;
+  span {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    line-height: 30px;
+    height: 30px;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.8);
+  }
 }
 .swiper-3d li img {
 	width: 100%;

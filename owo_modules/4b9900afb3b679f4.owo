@@ -1,7 +1,9 @@
 <template>
   <div class="image-show">
     <a href="#">
-      <img width="320" height="192" src="http://www.people.com.cn/NMediaFile/2019/1018/MAIN201910180031067527483482125.jpg">
+      <div class="picl" style=" width: 320px; height: 192px">
+        <img width="320" height="192" src="http://www.people.com.cn/NMediaFile/2019/1018/MAIN201910180031067527483482125.jpg">
+      </div>
       <h4><span style="color: red;">[标题内容] </span>说明文字说说明文字说明文字说明文字说明文字说明文字明文字说明文字说明文字说明文字</h4>
     </a>
   </div>

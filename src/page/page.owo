@@ -1,12 +1,14 @@
 <template lang="pug">
 .home
-  plug(_name="channelTop" _src="./src/moudle/channel.owo")
-  .w1000
+  plug.no-phone(_name="channelTop" _src="./src/moudle/channel.owo")
+  plug.no-pc(_name="pindaoTitlePhone" _src="./src/moudle/pindaoTitlePhone.owo")
+  plug.no-pc(_name="phoneTopBar" _src="./src/phone/phoneTopBar.owo")
+  .w1000.no-phone
     .h10
     plug(_name="channelBanner" _src="./src/moudle/channelBanner.owo")
     plug(_name="nav" _src="https://template.owo.ink/16f73a11cea049db.owo")
     plug(_name="textBar" _src="./src/moudle/textBar.owo")
-  plug(_name="channelBar" _src="./src/moudle/channelBar.owo")
+  plug.no-phone(_name="channelBar" _src="./src/moudle/channelBar.owo")
   .gray
     .w1000
       .h35
@@ -87,16 +89,17 @@
     .h35
     plug(_name="titleBar" _src="./src/moudle/titleBar.owo" _text1="经典" _text2="回顾")
     .h35
-    plug(_name="自主插件的3D轮播图.owo" _src="https://template.owo.ink/0e446b29a4c2649b.owo")
+    plug(_name="swiper3d" _src="https://template.owo.ink/0e446b29a4c2649b.owo")
     .h35
   .gray
     .w1000
       .h35
       plug(_name="titleBar" _src="./src/moudle/titleBar.owo" _text1="品牌" _text2="推广")
       .h10
-      plug(_name="视频链接轮播图" _src="https://template.owo.ink/dd34f42b0698caf4.owo")
+      plug(_name="videoSwiper" _src="https://template.owo.ink/dd34f42b0698caf4.owo")
       .h35
-  plug(_name="linksbg" _src="./src/moudle/linksbg.owo")
+  plug.no-phone(_name="linksbg" _src="./src/moudle/linksbg.owo")
+  plug.no-pc(_name="copyright" _src="https://template.owo.ink/060579f0b4f1bcaa.owo")
 </template>
 
 <script>
@@ -196,6 +199,94 @@ a {
     width: 100%;
     height: 100%;
     overflow: hidden;
+  }
+}
+</style>
+
+<style lang="less" original>
+.phone .zbft {
+  .left {
+    width: 100%;
+    p {
+      background-color: #f2f2f2;
+      font-size: 14px;
+      line-height: 22px;
+      height: 66px;
+    }
+  }
+  .right {
+    margin: 0;
+    margin-top: 10px;
+    img {
+      width: 33%;
+      height: auto;
+    }
+    .info {
+      width: calc(67% - 88px);
+      h3 {
+        height: 70px;
+        font-size: 14px;
+      }
+      h4 {
+        font-size: 14px;
+        background-size: 18px;
+        padding-left: 25px;
+        line-height: 25px;
+      }
+    }
+  }
+  .video-image-box {
+    width: 100%;
+    height: 63vw;
+  }
+}
+.phone .waixuan {
+  li {
+    float: left;
+    width: 48%;
+    margin: 2% 1%;
+    height: 14vw;
+  }
+}
+.phone .h35 {
+  height: 10px;
+}
+.phone {
+  .conn .swiper-3d {
+    width: 100%;
+    height: 56vw;
+  }
+  li span {
+    font-size: 12px;
+  }
+  .LbWMGSGs {
+    width: 100%;
+    height: 90vw;
+    .swiper-wrapper {
+      height: 70vw;
+    }
+    .swiper-container {
+      width: 100%;
+      height: 70vw;
+      margin: 0 auto;
+      .swiper-item {
+        width: 100%;
+        img {
+          height: 54vw;
+        }
+      }
+    }
+  }
+  #copyright {
+    padding: 30px 0;
+    background-color: #e60012;
+    color: white;
+  }
+  .title-bar {
+    margin: 0 auto;
+    height: 40px;
+    line-height: 40px;
+    font-size: 22px;
   }
 }
 </style>

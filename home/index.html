@@ -1,0 +1,856 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <!-- 页面的元信息 -->
+  <title>{TAG_14226_TAG}</title>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
+  <meta name="format-detection" content="telephone=no, email=no" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="white" />
+  <meta name="renderer" content="webkit" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="filetype" content="1" />
+  <meta name="publishedtype" content="1" />
+  <meta name="pagetype" content="2" />
+  <meta name="screen-orientation" content="landscape" />
+  <meta name="x5-orientation" content="landscape" />
+  <meta name="full-screen" content="yes" />
+  <meta name="x5-fullscreen" content="true" />
+  <meta name="browsermode" content="application" />
+  <meta name="x5-page-mode" content="app" />
+
+  <!-- 页面主样式文件 -->
+  <link charset="utf-8" rel="stylesheet" href="./static/css/owo.core.th6uxr8u43p.css">
+
+  <!-- 附属css文件 -->
+  <link rel="stylesheet" href="./static/css/main.css" charset="utf-8">
+  <link rel="stylesheet" href="./static/resource/idangerous.swiper.css" charset="utf-8">
+
+</head>
+
+<body>
+
+  <!-- 页面[page]-->
+  <div class="home page" template="page" style="display: block;">
+    <div class="top_nav clearfix clear cj01 no-phone" template="channelTop">
+      <div class="w1000 white pos_re_login cj02 clear">
+        <div class="fl">
+          <a href="http://www.people.com.cn/" target="_blank">网站首页</a>
+          <a href="http://politics.people.com.cn/" target="_blank">时政</a>
+          <a href="http://world.people.com.cn/" target="_blank">国际</a>
+          <a href="http://finance.people.com.cn/" target="_blank">财经</a>
+          <a href="http://tw.people.com.cn/" target="_blank">台湾</a>
+          <a href="http://military.people.com.cn/" target="_blank">军事</a>
+          <a href="http://opinion.people.com.cn/" target="_blank">观点</a>
+          <a href="http://leaders.people.com.cn/" target="_blank">领导</a>
+          <a href="http://renshi.people.com.cn/" target="_blank">人事</a>
+          <a href="http://theory.people.com.cn/" target="_blank">理论</a>
+          <a href="http://legal.people.com.cn/" target="_blank">法治</a>
+          <a href="http://society.people.com.cn/" target="_blank">社会</a>
+          <a href="http://industry.people.com.cn/" target="_blank">产经</a>
+          <a href="http://edu.people.com.cn/" target="_blank">教育</a>
+          <a href="http://kpzg.people.com.cn/" target="_blank">科普</a>
+          <a href="http://sports.people.com.cn/" target="_blank">体育</a>
+          <a href="http://culture.people.com.cn/" target="_blank">文化</a>
+          <a href="http://art.people.com.cn/" target="_blank">书画</a>
+          <a href="http://house.people.com.cn/" target="_blank">房产</a>
+          <a href="http://auto.people.com.cn/" target="_blank">汽车</a>
+          <a href="http://travel.people.com.cn/" target="_blank">旅游</a>
+          <a href="http://health.people.com.cn/" target="_blank">健康</a>
+          <a href="http://tv.people.com.cn/" target="_blank">视频</a>
+        </div>
+        <div class="fr">
+          <div id="txz_dlq">
+            <a id="login_button">登录</a>
+            <a href="http://sso.people.com.cn/u/reg?appCode=ENw9NE44" target="_blank">注册</a>
+          </div>
+          <div id="txz_dlh" style="display:none;">
+            <span id="loginMsg"></span>
+            <a id="logout" target="_self">退出</a>
+          </div>
+        </div>
+        <div class="p_login" id="p_login" style="display: none;">
+          <div id="txz_dlq">
+            <p>登录人民网通行证 &nbsp;&nbsp;&nbsp;<a class="red" href="http://sso.people.com.cn/u/reg?appCode=ENw9NE44">立即注册</a>
+            </p>
+            <form name="loginForm" onssologin="loginSuccess()" onssoerror="alert(msg)">
+              <p>
+                <input type="text" value="请输入用户名" onfocus="this.value='';this.style.color='#000';" onblur="if(!value){value=defaultValue;this.style.color='#d0d0d0';}" name="username" data-suggest="off">
+              </p>
+              <p>
+                <input type="password" value="" name="password">
+              </p>
+              <span style="display:none;">
+                <input type="checkbox" name="remember" checked="checked" value="1"><label for="rememberMe">记住登录状态</label></span>
+              <p>
+                <a href="http://sso.people.com.cn/u/findpwd/user">忘记密码？</a>
+              </p>
+              <p class="tc">
+                <input class="people_button_sub" type="submit" name="" value="登录">
+              </p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pindao-title-phone no-pc" template="pindaoTitlePhone">
+      <div class="logo">
+        <a href="http://www.people.com.cn/" target="_blank">
+          <img src="./static/resource/logodf.png" width="126" height="47">
+        </a>
+        <a href="http://js.people.com.cn" target="_blank">江苏频道</a>
+      </div>
+      <a href="?usePc">PC版</a>
+    </div>
+    <ul class="phone-top-bar clear no-pc" template="phoneTopBar">
+      <li class="active">
+        <a href="#">专题首页</a>
+      </li>
+      <li>
+        <a href="#">新闻策划</a>
+      </li>
+      <li>
+        <a href="#">活动策划</a>
+      </li>
+      <li>
+        <a href="#">直播访谈</a>
+      </li>
+      <li>
+        <a href="#">外宣平台</a>
+      </li>
+      <li>
+        <a href="#">品牌推广</a>
+      </li>
+    </ul>
+    <div class="w1000 no-phone">
+      <div class="h10"></div>
+      <div class="w1000 channel-banner" template="channelBanner">
+        <img src="./static/resource/jiangsu.jpg">
+        <div class="logo">
+          <a href="http://www.people.com.cn/" target="_blank">
+            <img src="./static/resource/logo_rmw.png" width="125" height="48">
+          </a>
+          <a href="http://js.people.com.cn" target="_blank">江苏</a>
+        </div>
+      </div>
+      <div class="main-bar" template="nav">
+        <a target="_blank" href="http://www.people.com.cn/">江苏要闻</a>
+        <a target="_blank" href="http://www.people.com.cn/">国际国内</a>
+        <a target="_blank" href="http://www.people.com.cn/">评论</a>
+        <a target="_blank" href="http://www.people.com.cn/">政治</a>
+        <a target="_blank" href="http://www.people.com.cn/">舆情</a>
+        <a target="_blank" href="http://www.people.com.cn/">经济</a>
+        <a target="_blank" href="http://www.people.com.cn/">房产</a>
+        <a target="_blank" href="http://www.people.com.cn/">民生</a>
+        <a target="_blank" href="http://www.people.com.cn/">社会</a>
+        <a target="_blank" href="http://www.people.com.cn/">教育</a>
+        <a target="_blank" href="http://www.people.com.cn/">文化</a>
+        <a target="_blank" href="http://www.people.com.cn/">旅游</a>
+        <a target="_blank" href="http://www.people.com.cn/">娱乐</a>
+        <a target="_blank" href="http://www.people.com.cn/">专稿</a>
+        <a target="_blank" href="http://www.people.com.cn/">专题</a>
+        <a target="_blank" href="http://www.people.com.cn/">视频</a>
+        <a target="_blank" href="http://www.people.com.cn/">图片</a>
+      </div>
+      <div class="text-bar clear red-a" template="textBar">
+        <div class="left fl"><b>
+            <a href="/GB/359726/360296/index.html" target="_blank">人民日报看江苏</a>
+          </b><b>
+            <a href="http://www.jspeople.com" target="_blank">百姓呼声</a>
+          </b><b style="padding-right:4px;">
+            <a href="http://www.jspeople.com/leader" target="_blank">给领导留言</a>
+          </b></div>
+        <ul class="fl clear">
+          <li>
+            <a href="/GB/361417/359575/index.html" target="_blank">南京</a>
+          </li>
+          <li>
+            <a href="/GB/361417/359576/index.html" target="_blank">苏州</a>
+          </li>
+          <li>
+            <a href="http://wuxi.people.com.cn/" target="_blank">无锡</a>
+          </li>
+          <li>
+            <a href="http://nantong.people.com.cn/" target="_blank">南通</a>
+          </li>
+          <li>
+            <a href="http://xuzhou.people.com.cn/" target="_blank">徐州</a>
+          </li>
+          <li>
+            <a href="/GB/361417/359578/index.html" target="_blank">常州</a>
+          </li>
+          <li>
+            <a href="/GB/361417/359583/index.html" target="_blank">盐城</a>
+          </li>
+          <li>
+            <a href="/GB/361417/359580/index.html" target="_blank">扬州</a>
+          </li>
+          <li>
+            <a href="/GB/361417/359581/index.html" target="_blank">泰州</a>
+          </li>
+          <li>
+            <a href="/GB/361417/359579/index.html" target="_blank">镇江</a>
+          </li>
+          <li>
+            <a href="http://huaian.people.com.cn/" target="_blank">淮安</a>
+          </li>
+          <li>
+            <a href="/GB/361417/359585/index.html" target="_blank">连云港</a>
+          </li>
+          <li>
+            <a href="/GB/361417/359586/index.html" target="_blank">宿迁</a>
+          </li>
+        </ul>
+        <div class="right fl"><b style="padding-left:0px; color:#000000">新闻热线：025-85582800</b><b>
+            <a href="http://m.people.cn/1141/1182/index.html" target="_blank" style="color:#f00011">手机看新闻</a>
+          </b><b>
+            <a href="http://zhouenlai.people.com.cn" target="_blank" style="color:#b96e01;">周恩来纪念网</a>
+          </b></div>
+      </div>
+    </div>
+    <div class="channel-bar clear no-phone" template="channelBar">
+      <div class="w1000">
+        <div class="left-item fl active">专题频道</div>
+        <div class="channel-bar-item channel-bar-item-1 fl">
+          <a href="#">
+            <img src="./static/resource/xwch_icon.png" o-hover="bounce-in">
+            <span>新闻策划</span>
+          </a>
+        </div>
+        <div class="channel-bar-item channel-bar-item-2 fl">
+          <a href="#">
+            <img src="./static/resource/zbft_cion.png" o-hover="bounce-in">
+            <span>活动策划</span>
+          </a>
+        </div>
+        <div class="channel-bar-item fl">
+          <a href="#">
+            <img src="./static/resource/gdft01.png" o-hover="bounce-in">
+            <span>直播访谈</span>
+          </a>
+        </div>
+        <div class="channel-bar-item fl">
+          <a href="#">
+            <img src="./static/resource/wxpt_icon.png" o-hover="bounce-in">
+            <span>外宣平台</span>
+          </a>
+        </div>
+        <div class="channel-bar-item fl">
+          <a href="#">
+            <img src="./static/resource/pptg_icon.png" o-hover="bounce-in">
+            <span>平台推广</span>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="gray">
+      <div class="w1000">
+        <div class="h35"></div>
+        <div class="high1" template="high1">
+          <div class="button arrow-left" o-tap="prev" o-hover="grow"></div>
+          <div class="button arrow-right" o-tap="next" o-hover="grow"></div>
+          <div class="swiper-container">
+            <div class="swiper-wrapper">
+              <!-- 插入图片 宽度: 860px 高度: 430px -->
+              <div class="swiper-slide">
+                <div class="picl" style=" width:860px; height: 430px">
+                  <img src="./static/resource/MAIN201906210855032980489526259.jpg" width="860" height="430" alt="">
+                </div>
+                <span>1.舞蹈演员们现场表演以“惠安女”为原型的群体舞蹈。（摄影：陈嘉姚）</span>
+              </div>
+              <div class="swiper-slide">
+                <div class="picl" style=" width:860px; height: 430px">
+                  <img src="./static/resource/MAIN201906211017498979737378275.jpg" width="860" height="430" alt="">
+                </div>
+                <span>2.舞蹈演员们现场表演以“惠安女”为原型的群体舞蹈。（摄影：陈嘉姚）</span>
+              </div>
+              <div class="swiper-slide">
+                <div class="picl" style=" width:860px; height: 430px">
+                  <img src="./static/resource/MAIN201906210856213440704882887.jpg" width="860" height="430" alt="">
+                </div>
+                <span>3.舞蹈演员们现场表演以“惠安女”为原型的群体舞蹈。（摄影：陈嘉姚）</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="h35"></div>
+      </div>
+    </div>
+    <div class="w1000">
+      <div class="h35"></div>
+      <div class="title-bar" template="titleBar">
+        <span style="color: #e70012;">新闻</span>
+        <span>策划</span>
+        <a class="more" href="#">更多+</a>
+      </div>
+      <div class="h10"></div>
+      <div class="xwch clear">
+        <div class="image-show" template="imageAndText">
+          <a href="#">
+            <div class="picl" style=" width: 320px; height: 192px">
+              <img width="320" height="192" src="./static/resource/MAIN201910180031067527483482125.jpg">
+            </div>
+            <h4>
+              <span style="color: red;">[标题内容] </span>说明文字说说明文字说明文字说明文字说明文字说明文字明文字说明文字说明文字说明文字
+            </h4>
+          </a>
+        </div>
+        <div class="image-show" template="imageAndText">
+          <a href="#">
+            <div class="picl" style=" width: 320px; height: 192px">
+              <img width="320" height="192" src="./static/resource/MAIN201910180031067527483482125.jpg">
+            </div>
+            <h4>
+              <span style="color: red;">[标题内容] </span>说明文字说说明文字说明文字说明文字说明文字说明文字明文字说明文字说明文字说明文字
+            </h4>
+          </a>
+        </div>
+        <div class="image-show" template="imageAndText">
+          <a href="#">
+            <div class="picl" style=" width: 320px; height: 192px">
+              <img width="320" height="192" src="./static/resource/MAIN201910180031067527483482125.jpg">
+            </div>
+            <h4>
+              <span style="color: red;">[标题内容] </span>说明文字说说明文字说明文字说明文字说明文字说明文字明文字说明文字说明文字说明文字
+            </h4>
+          </a>
+        </div>
+        <div class="image-show" template="imageAndText">
+          <a href="#">
+            <div class="picl" style=" width: 320px; height: 192px">
+              <img width="320" height="192" src="./static/resource/MAIN201910180031067527483482125.jpg">
+            </div>
+            <h4>
+              <span style="color: red;">[标题内容] </span>说明文字说说明文字说明文字说明文字说明文字说明文字明文字说明文字说明文字说明文字
+            </h4>
+          </a>
+        </div>
+        <div class="image-show" template="imageAndText">
+          <a href="#">
+            <div class="picl" style=" width: 320px; height: 192px">
+              <img width="320" height="192" src="./static/resource/MAIN201910180031067527483482125.jpg">
+            </div>
+            <h4>
+              <span style="color: red;">[标题内容] </span>说明文字说说明文字说明文字说明文字说明文字说明文字明文字说明文字说明文字说明文字
+            </h4>
+          </a>
+        </div>
+        <div class="image-show" template="imageAndText">
+          <a href="#">
+            <div class="picl" style=" width: 320px; height: 192px">
+              <img width="320" height="192" src="./static/resource/MAIN201910180031067527483482125.jpg">
+            </div>
+            <h4>
+              <span style="color: red;">[标题内容] </span>说明文字说说明文字说明文字说明文字说明文字说明文字明文字说明文字说明文字说明文字
+            </h4>
+          </a>
+        </div>
+        <div class="h10"></div>
+      </div>
+    </div>
+    <div class="gray">
+      <div class="w1000">
+        <div class="h35"></div>
+        <div class="title-bar" template="titleBar-1">
+          <span style="color: #e70012;">活动</span>
+          <span>策划</span>
+          <a class="more" href="#">更多+</a>
+        </div>
+        <div class="h10"></div>
+        <div class="show-x3" template="showx3">
+
+          <div class="swiper-container">
+            <div class="swiper-wrapper">
+              <!-- 插入图片 宽度: 1010px 高度: 577px -->
+              <div class="swiper-slide">
+                <img src="./static/resource/show-1.png" width="330" height="577" alt="">
+
+              </div>
+              <div class="swiper-slide">
+                <img src="./static/resource/show-2.png" width="330" height="577" alt="">
+              </div>
+              <div class="swiper-slide">
+                <img src="./static/resource/show-1.png" width="330" height="577" alt="">
+                <span>2019第七届中国·沭阳花木节</span>
+              </div>
+            </div>
+          </div>
+          <div class="button arrow-left" o-tap="prev"></div>
+          <div class="button arrow-right" o-tap="next"></div>
+        </div>
+        <div class="h35"></div>
+      </div>
+    </div>
+    <div class="w1000">
+      <div class="h35"></div>
+      <div class="title-bar" template="titleBar-2">
+        <span style="color: #e70012;">直播</span>
+        <span>访谈</span>
+        <a class="more" href="#">更多+</a>
+      </div>
+      <div class="h35"></div>
+      <div class="zbft clear">
+        <div class="left fl">
+          <div class="video-image-box">
+            <script src="http://tv.people.com.cn/img/player/v.js"></script>
+            <script>showPlayer({id:"/pvservice/xml/2020/4/24/29a07d27-2bd2-4739-b144-88adde471e7c.xml", width: 540, height: 356});</script>
+          </div>
+          <p>
+            <span style="color: red;">【视频访谈】</span>江苏高校访谈录江苏高校访谈录江苏高校访谈录江苏高校访谈录江苏高校访谈录江苏高校访谈录江苏高校访谈录江苏高校访谈录江苏高校访谈录江苏高校访谈录江苏高校访谈录
+          </p>
+        </div>
+        <ul class="right fl">
+          <li>
+            <a href="#">
+              <img src="./static/resource/LOCAL202004231704251146980522793.jpg" width="210" height="126">
+              <div class="info">
+                <h3>首届中国县域数字经济高峰论坛暨2019县域新型智慧城市发展论坛</h3>
+                <h4>2019.10.30</h4>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="./static/resource/LOCAL202004231704251146980522793.jpg" width="210" height="126">
+              <div class="info">
+                <h3>首届中国县域数字经济高峰论坛暨2019县域新型智慧城市发展论坛</h3>
+                <h4>2019.10.30</h4>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="./static/resource/LOCAL202004231704251146980522793.jpg" width="210" height="126">
+              <div class="info">
+                <h3>首届中国县域数字经济高峰论坛暨2019县域新型智慧城市发展论坛</h3>
+                <h4>2019.10.30</h4>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="h10"></div>
+    </div>
+    <div class="gray">
+      <div class="w1000">
+        <div class="h35"></div>
+        <div class="title-bar" template="titleBar-3">
+          <span style="color: #e70012;">外宣</span>
+          <span>平台</span>
+          <a class="more" href="#">更多+</a>
+        </div>
+        <ul class="waixuan block-box clear">
+          <li>
+            <a href="#">
+              <img src="./static/resource/show-4.png" width="310" height="80">
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="./static/resource/show-4.png" width="310" height="80">
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="./static/resource/show-4.png" width="310" height="80">
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="./static/resource/show-4.png" width="310" height="80">
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="./static/resource/show-4.png" width="310" height="80">
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="./static/resource/show-4.png" width="310" height="80">
+            </a>
+          </li>
+        </ul>
+        <div class="h35"></div>
+      </div>
+    </div>
+    <div class="w1000">
+      <div class="h35"></div>
+      <div class="title-bar" template="titleBar-4">
+        <span style="color: #e70012;">经典</span>
+        <span>回顾</span>
+        <a class="more" href="#">更多+</a>
+      </div>
+      <div class="h35"></div>
+      <div class="conn" template="swiper3d">
+        <ul class="swiper-3d">
+          <li>
+            <a href="#">
+              <img width="738" height="450" src="./static/resource/image-1.jpg">
+              <span>北京市4.9万余名高三学生开学复课</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img width="738" height="450" src="./static/resource/MAIN202003241016325073558905659.jpg">
+              <span>北京通州运河城市段游船开航北京通州运河城市段游船开航北京通州运河城市段游船开航北京通州运河城市段游船开航</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img width="738" height="450" src="./static/resource/MAIN202003241016325073558905659.jpg">
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img width="738" height="450" src="./static/resource/MAIN202003241016325073558905659.jpg">
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img width="738" height="450" src="./static/resource/MAIN202003241016325073558905659.jpg">
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img width="738" height="450" src="./static/resource/image-1.jpg">
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img width="738" height="450" src="./static/resource/MAIN202003241016325073558905659.jpg">
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img width="738" height="450" src="./static/resource/MAIN202003241016325073558905659.jpg">
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img width="738" height="450" src="./static/resource/MAIN202003241016325073558905659.jpg">
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img width="738" height="450" src="./static/resource/MAIN202003241016325073558905659.jpg">
+            </a>
+          </li>
+        </ul>
+        <img class="left" src="./static/resource/left-button-3.png" o-tap="swiperIt.prev()">
+        <img class="right" src="./static/resource/right-button-3.png" o-tap="swiperIt.next()">
+      </div>
+      <div class="h35"></div>
+    </div>
+    <div class="gray">
+      <div class="w1000">
+        <div class="h35"></div>
+        <div class="title-bar" template="titleBar-5">
+          <span style="color: #e70012;">品牌</span>
+          <span>推广</span>
+          <a class="more" href="#">更多+</a>
+        </div>
+        <div class="h10"></div>
+        <div class="LbWMGSGs" template="videoSwiper">
+          <div class="swiper-container">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide card">
+                <div class="swiper-item">
+                  <a href="#">
+                    <img width="300" height="170" src="./static/resource/MAIN201912260907120738032280874.jpg">
+                    <div class="image-title">
+                      <span style="color: red;">[标题内容] </span>中国冰雕亮相莫斯科
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="swiper-slide card">
+                <div class="swiper-item">
+                  <a href="#">
+                    <img width="300" height="170" src="./static/resource/MAIN201912260907113668180928777.jpg">
+                    <div class="image-title">云南星云湖开湖捕鱼忙</div>
+                  </a>
+                </div>
+              </div>
+              <div class="swiper-slide card">
+                <div class="swiper-item">
+                  <a href="#">
+                    <img width="300" height="170" src="./static/resource/MAIN201912260907113668180928777.jpg">
+                    <div class="image-title">探访新中国首个名人纪念馆上海鲁迅纪念馆</div>
+                  </a>
+                </div>
+              </div>
+              <div class="swiper-slide card">
+                <div class="swiper-item">
+                  <a href="#">
+                    <img width="300" height="170" src="./static/resource/MAIN201912260907110150545385955.jpg">
+                    <div class="image-title">呼伦贝尔：燃情雪橇激情冬日</div>
+                  </a>
+                </div>
+              </div>
+              <div class="swiper-slide card">
+                <div class="swiper-item">
+                  <a href="#">
+                    <img width="300" height="170" src="./static/resource/MAIN201912250710121236217686613.jpg">
+                    <div class="image-title">连云港：“海上菜园”收割忙</div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="pagination clear"></div>
+        </div>
+        <div class="h35"></div>
+      </div>
+    </div>
+    <div class="linksbg no-phone" template="linksbg">
+      <section class="links clearfix">
+        <div class="w1000 clearfix"><strong>国内分站</strong>
+          <p class="gn" id="rmw_guonei">
+            <a href="http://bj.people.com.cn/" target="_blank">北京</a>
+            <a href="http://tj.people.com.cn/ " target="_blank">天津</a>
+            <a href="http://he.people.com.cn/" target="_blank">河北</a>
+            <a href="http://sx.people.com.cn/" target="_blank">山西</a>
+            <a href="http://nm.people.com.cn/" target="_blank">内蒙古</a>
+            <a href="http://ln.people.com.cn/" target="_blank">辽宁</a>
+            <a href="http://jl.people.com.cn/" target="_blank">吉林</a>
+            <a href="http://hlj.people.com.cn/" target="_blank">黑龙江</a>
+            <a href="http://sh.people.com.cn/" target="_blank">上海</a>
+            <a href="http://js.people.com.cn" target="_blank">江苏</a>
+            <a href="http://zj.people.com.cn/" target="_blank">浙江</a>
+            <a href="http://ah.people.com.cn/" target="_blank">安徽</a>
+            <a href="http://fj.people.com.cn/" target="_blank">福建</a>
+            <a href="http://jx.people.com.cn/" target="_blank">江西</a>
+            <a href="http://sd.people.com.cn/" target="_blank">山东</a>
+            <a href="http://henan.people.com.cn/" target="_blank">河南</a><br>
+            <a href="http://hb.people.com.cn/" target="_blank">湖北</a>
+            <a href="http://hn.people.com.cn/" target="_blank">湖南</a>
+            <a href="http://gd.people.com.cn/" target="_blank">广东</a>
+            <a href="http://gx.people.com.cn/" target="_blank">广西</a>
+            <a href="http://hi.people.com.cn/" target="_blank">海南</a>
+            <a href="http://cq.people.com.cn/" target="_blank">重庆</a>
+            <a href="http://sc.people.com.cn/" target="_blank">四川</a>
+            <a href="http://gz.people.com.cn/" target="_blank">贵州</a>
+            <a href="http://yn.people.com.cn/" target="_blank">云南</a>
+            <a href="http://xz.people.com.cn/" target="_blank">西藏</a>
+            <a href="http://sn.people.com.cn/" target="_blank">陕西</a>
+            <a href="http://gs.people.com.cn/" target="_blank">甘肃</a>
+            <a href="http://qh.people.com.cn/" target="_blank">青海</a>
+            <a href="http://nx.people.com.cn/" target="_blank">宁夏</a>
+            <a href="http://xj.people.com.cn/" target="_blank">新疆</a>
+            <a href="http://sz.people.com.cn/" target="_blank">深圳</a><br>
+            <a href="http://unn.people.com.cn/GB/422044/index.html" target="_blank">地方频道人员名单</a>
+          </p>
+          <p></p><strong>全球分站</strong>
+          <p class="quan" id="rmw_quanqiu">
+            <a href="http://japan.people.com.cn/" target="_blank">日本</a>
+            <a href="http://usa.people.com.cn/" target="_blank">美国</a>
+            <a href="http://uk.people.com.cn/" target="_blank">英国</a>
+            <a href="http://ru.people.com.cn/" target="_blank">俄罗斯</a>
+            <a href="http://korea.people.com.cn/" target="_blank">韩国</a><br>
+            <a href="http://australia.people.com.cn/" target="_blank">澳大利亚</a>
+            <a href="http://nordic.people.cn" target="_blank">北欧</a>
+          </p>
+        </div>
+        <div class="f_link w1000 clearfix"><strong>友情链接</strong>
+          <p>
+            <a href="http://www.jiangsu.gov.cn" target="_blank">江苏省政府</a>
+            <a href="http://xh.xhby.net" target="_blank">新华日报</a>
+            <a href="http://www.jsbc.com" target="_blank">江苏广电</a>
+            <a href="http://njrb.njdaily.cn/" target="_blank">南京日报</a>
+            <a href="http://www.yangtse.com" target="_blank">扬子晚报</a>
+            <a href="http://kb.dsqq.cn" target="_blank">现代快报</a>
+            <a href="http://jlwb.njnews.cn" target="_blank">金陵晚报</a>
+            <a href="http://www.js.xinhuanet.com" target="_blank">新华网江苏频道</a>
+            <a href="http://www.jschina.com.cn" target="_blank">中国江苏网</a>
+            <a href="http://jiangsu.sina.com.cn/" target="_blank">新浪江苏</a>
+            <a href="http://www.longhoo.net" target="_blank">龙虎网</a>
+            <a href="http://www.njdaily.cn" target="_blank">南报网</a>
+          </p>
+        </div>
+        <div class="lxwm">
+          <a href="http://js.people.com.cn/GB/384224/index.html" target="_blank">关于我们</a>
+          <a href="http://js.people.com.cn/GB/384224/384229/index.html" target="_blank">产品与服务</a>
+          <a href="http://js.people.com.cn/GB/384224/384230/index.html" target="_blank">本网员工</a>
+          <a href="http://js.people.com.cn/GB/384224/384226/index.html#aa_4" target="_blank">本网优势</a>
+          <a href="http://js.people.com.cn/GB/384224/384231/index.html" target="_blank">联系我们</a>
+          <a href="http://js.people.com.cn/n2/2019/0410/c358232-32828107.html" target="_blank">本网招聘</a>
+          <a href="http://js.people.com.cn/GB/360446/362405/377471/index.html" target="_blank">本网法律顾问：江苏德擎律师事务所 王树平律师</a><br>地址：江苏省南京市玄武大道699-19号徐庄软件园环园中路1栋人民日报社江苏分社 | 电话：025—85582800 85582899（传真） | 投稿信箱：news@jspeople.com
+        </div>
+      </section><!-- 版权-->
+      <footer class="clearfix">
+        <p>
+          <a href="http://www.people.com.cn/GB/1018/22259/index.html" target="_blank">人民日报社概况</a>
+          <span class="xian">|</span>
+          <a href="http://www.people.com.cn/GB/50142/420117/index.html" target="_blank">关于人民网</a>
+          <span class="xian">|</span>
+          <a href="http://hr.peopledaily.com.cn/" target="_blank">报社招聘</a>
+          <span class="xian">|</span>
+          <a href="http://www.people.com.cn/GB/1018/245490/index.html" target="_blank">招聘英才</a>
+          <span class="xian">|</span>
+          <a href="http://www.people.com.cn/GB/208743/403202/index.html" target="_blank">广告服务</a>
+          <span class="xian">|</span>
+          <a href="http://www.people.com.cn/GB/208743/403202/403212/index.html" target="_blank">合作加盟</a>
+          <span class="xian">|</span>
+          <a href="http://gonggao.people.com.cn/" target="_blank">供稿服务</a>
+          <span class="xian">|</span>
+          <a href="http://www.people.com.cn/n/2013/1227/c373005-23961344.html" target="_blank">网站声明</a>
+          <span class="xian">|</span>
+          <a href="http://www.people.com.cn/n1/2019/0308/c420117-30965009.html" target="_blank">网站律师</a>
+          <span class="xian">|</span>
+          <a href="http://sso.people.com.cn/resource/html/userInforPro.html" target="_blank">信息保护</a>
+          <span class="xian">|</span>
+          <a href="http://kf.people.com.cn/" target="_blank">呼叫中心</a>
+          <span class="xian">|</span>
+          <a href="http://english.peopledaily.com.cn/" target="_blank">ENGLISH</a>
+        </p>
+        <p>镜像:<a href="http://www.people.com.cn/" target="_blank">日本</a>
+          <a href="http://www.peopledaily.edu.cn/" target="_blank">教育网</a>
+          <a href="http://www.peopledaily.ac.cn/">科技网</a>&nbsp;&nbsp;呼叫热线：4008-100-300&nbsp;&nbsp;服务邮箱：<a href="mailto:kf@people.cn" target="_blank">kf@people.cn</a>&nbsp;&nbsp;违法和不良信息举报电话：010-65363263&nbsp;&nbsp;举报邮箱：<a href="mailto:jubao@people.cn" target="_blank">jubao@people.cn</a>
+        </p>
+        <p>
+          <a href="http://www.people.com.cn/img/2014xuke/2018hlwxw.html" target="_blank">互联网新闻信息服务许可证10120170001</a>
+          <span class="xian">|</span>
+          <a href="http://www.people.com.cn/img/2014xuke/2018zzdxxkz.html" target="_blank">增值电信业务经营许可证B1-20060139</a>
+        </p>
+        <p>
+          <a href="http://www.people.com.cn/img/2011zzzs/2018xxwlcb.htm" target="_blank">信息网络传播视听节目许可证0104065</a>
+          <span class="xian">|</span>
+          <a href="http://www.people.com.cn/img/2019peopleindex/html/gbds2019.html" target="_blank">广播电视节目制作经营许可证（广媒）字第172号</a>
+        </p>
+        <p>
+          <a href="http://www.people.com.cn/img/2014xuke/2018wlwh.html" target="_blank">网络文化经营许可证 京网文[2017]9786-1126号</a>
+          <span class="xian">|</span>
+          <a href="http://www.people.com.cn/img/2014xuke/2018wlcb.html" target="_blank">网络出版服务许可证（京）字258号</a>
+          <span class="xian">|</span>
+          <a href="http://www.people.com.cn/img/2014xuke/2018icp.html" target="_blank">京ICP证000006号</a>
+          <span class="xian">|</span>
+          <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11000002000008" target="_blank">京公网安备11000002000008号</a>
+        </p>
+        <p class="mt30">人 民 网 版 权 所 有 ，未 经 书 面 授 权 禁 止 使 用<br>Copyright © 1997-2020 by www.people.com.cn. all rights reserved</p>
+        <p class="mt30">
+          <a href="http://www.hd315.gov.cn/beian/view.asp?bianhao=0102000101300040" target="_blank">
+            <img src="./static/resource/copy_icon1.jpg">
+          </a>
+          <a href="https://ss.knet.cn/verifyseal.dll?sn=e12050911010020686307708&amp;ct=df&amp;a=1&amp;pa=980951" target="_blank">
+            <img src="./static/resource/copy_icon2.jpg">
+          </a>
+          <a href="http://si.trustutn.org/info?sn=470170320027574551118&amp;certType=1" target="_blank">
+            <img src="./static/resource/copy_icon3.jpg">
+          </a>
+          <a href="http://www.itrust.org.cn/home/index/itrust_certifi/wm/2710933198.html" target="_blank">
+            <img src="./static/resource/copy_icon4.jpg">
+          </a>
+        </p>
+      </footer>
+    </div>
+    <div id="copyright" class=" no-pc" template="copyright">人 民 网 版 权 所 有 ，未 经 书 面 授 权 禁 止 使 用<br>Copyright © 1997-2020 by www.people.com.cn. all rights reserved</div>
+  </div>
+
+
+  <script src="./static/js/jquery-1.11.1.min.js" type="text/javascript" charset="UTF-8"></script>
+  <script src="./static/js/idangerous.swiper.min.js" type="text/javascript" charset="UTF-8"></script>
+  <script src="./static/js/main.js" type="text/javascript" charset="UTF-8"></script>
+  <script src="./static/js/swiper3D.js" type="text/javascript" charset="UTF-8"></script>
+  <script src="./static/js/check.js" type="text/javascript" charset="UTF-8"></script>
+  <!-- 框架script文件 -->
+  <script src="./static/js/owo.core.th6uxr8u43p.js" type="text/javascript" charset="UTF-8"></script>
+  <script type="text/javascript" charset="UTF-8">
+    owo.script = {
+      "page": {
+        "template": {
+          "high1": {
+            "data": {
+              "swiper": null
+            },
+            "created": function created() {
+              var _this = this;
+
+              setTimeout(function() {
+                var dom = _this.$el.getElementsByClassName('swiper-container')[0];
+
+                _this.data.swiper = new Swiper(dom, {
+                  autoplay: 3000,
+                  loop: true,
+                  grabCursor: true,
+                  paginationClickable: true
+                });
+              }, 0);
+            },
+            "prev": function prev() {
+              this.data.swiper.swipePrev();
+            },
+            "next": function next() {
+              this.data.swiper.swipeNext();
+            }
+          },
+          "showx3": {
+            "data": {
+              "swiper": null
+            },
+            "created": function created() {
+              var _this2 = this;
+
+              setTimeout(function() {
+                var dom = _this2.$el.getElementsByClassName('swiper-container')[0];
+
+                _this2.data.swiper = new Swiper(dom, {
+                  autoplay: 3000,
+                  loop: true,
+                  slidesPerView: !screenInfo.isPc ? 2 : 3
+                });
+              }, 0);
+            },
+            "prev": function prev() {
+              this.data.swiper.swipePrev();
+            },
+            "next": function next() {
+              this.data.swiper.swipeNext();
+            }
+          },
+          "swiper3d": {
+            "data": {
+              "swiperIt": null
+            },
+            "created": function created() {
+              this.data.swiperIt = swiperIt.init(this.query('.swiper-3d'), {
+                autoplay: 3000,
+                showSlider: !screenInfo.isPc ? 3 : 5,
+                width: !screenInfo.isPc ? 90 : 77.4,
+                step: 0.7
+              });
+            }
+          },
+          "videoSwiper": {
+            "created": function created() {
+              var cont = this.$el.getElementsByClassName('swiper-container')[0];
+              this.data.swiper = new Swiper(cont, {
+                "loop": true,
+                "autoplay": 3000,
+                "slidesPerView": !screenInfo.isPc ? 1 : 3,
+                pagination: this.$el.getElementsByClassName('pagination')[0],
+                paginationClickable: true
+              });
+            },
+            "data": {
+              "swiper": null
+            },
+            "swiperNext": function swiperNext() {
+              // console.log('swiperNext')
+              this.data.swiper.swipeNext ? this.data.swiper.swipeNext() : this.data.swiper.slideNext();
+            },
+            "swiperPrev": function swiperPrev() {
+              // console.log('swiperPrev')
+              this.data.swiper.swipePrev ? this.data.swiper.swipePrev() : this.data.swiper.slidePrev();
+            }
+          }
+        }
+      }
+    };
+  </script>
+
+</body>
+
+</html>

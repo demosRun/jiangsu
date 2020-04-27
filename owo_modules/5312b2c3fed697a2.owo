@@ -1,0 +1,49 @@
+<template>
+  <div class="pagination-bar clear">
+    <div class="pagination-box">
+      <a href="#">上一页</a>
+      <a href="#" class="active">1</a>
+      <a href="#">2</a>
+      <a href="#">3</a>
+      <a href="#">4</a>
+      <a href="#">5</a>
+      <a href="#">下一页</a>
+    </div>
+  </div>
+</template>
+
+<style lang="less">
+.pagination-bar {
+  text-align: center;
+  height: 60px;
+  line-height: 60px;
+  padding: 20px 0;
+}
+.pagination-bar .pagination-box a {
+  display: inline;
+}
+a {
+  display: block;
+  border: #dddad2 1px solid;
+  background: #f7f6f3;
+  padding: 10px 15px;
+  margin: 0 5px;
+  text-decoration: none;
+  color: unset;
+  font-size: 12px;
+}
+a:hover, .active {
+  background: #cc3333;
+  color: #fff;
+  text-decoration: none;
+}
+</style>
+
+<style lang="less" original>
+.phone .pagination-bar {
+  a {
+    padding: 4px 9px;
+    margin: 0 3px;
+  }
+}
+</style>

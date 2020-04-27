@@ -1,0 +1,77 @@
+<template lang="pug">
+.home
+  plug.no-pc(_name="pindaoTitlePhone" _src="./src/moudle/pindaoTitlePhone.owo")
+  plug.no-pc(_name="phoneTopBar" _src="./src/phone/phoneTopBar.owo")
+  plug.no-phone(_name="channelTop" _src="./src/moudle/channel.owo")
+  .w1000.no-phone
+    .h10
+    plug(_name="channelBanner" _src="./src/moudle/channelBanner.owo")
+    plug(_name="nav" _src="https://template.owo.ink/16f73a11cea049db.owo")
+    plug(_name="textBar" _src="./src/moudle/textBar.owo")
+  plug.no-phone(_name="channelBar" _src="./src/moudle/channelBar.owo")
+  .h35.no-phone
+  .h10.no-pc
+  //- 新闻策划
+  .xwch.w1000.clear
+    plug(_name="imageAndText" _src="https://template.owo.ink/4b9900afb3b679f4.owo")
+    plug(_name="imageAndText" _src="https://template.owo.ink/4b9900afb3b679f4.owo")
+    plug(_name="imageAndText" _src="https://template.owo.ink/4b9900afb3b679f4.owo")
+    plug(_name="imageAndText" _src="https://template.owo.ink/4b9900afb3b679f4.owo")
+    plug(_name="imageAndText" _src="https://template.owo.ink/4b9900afb3b679f4.owo")
+    plug(_name="imageAndText" _src="https://template.owo.ink/4b9900afb3b679f4.owo")
+    plug(_name="imageAndText" _src="https://template.owo.ink/4b9900afb3b679f4.owo")
+    plug(_name="imageAndText" _src="https://template.owo.ink/4b9900afb3b679f4.owo")
+    plug(_name="imageAndText" _src="https://template.owo.ink/4b9900afb3b679f4.owo")
+    plug(_name="imageAndText" _src="https://template.owo.ink/4b9900afb3b679f4.owo")
+    plug(_name="imageAndText" _src="https://template.owo.ink/4b9900afb3b679f4.owo")
+    plug(_name="imageAndText" _src="https://template.owo.ink/4b9900afb3b679f4.owo")
+    plug(_name="imageAndText" _src="https://template.owo.ink/4b9900afb3b679f4.owo")
+    plug(_name="imageAndText" _src="https://template.owo.ink/4b9900afb3b679f4.owo")
+    plug(_name="imageAndText" _src="https://template.owo.ink/4b9900afb3b679f4.owo")
+    plug(_name="imageAndText" _src="https://template.owo.ink/4b9900afb3b679f4.owo")
+    plug(_name="imageAndText" _src="https://template.owo.ink/4b9900afb3b679f4.owo")
+    plug(_name="imageAndText" _src="https://template.owo.ink/4b9900afb3b679f4.owo")
+    plug(_name="imageAndText" _src="https://template.owo.ink/4b9900afb3b679f4.owo")
+    plug(_name="imageAndText" _src="https://template.owo.ink/4b9900afb3b679f4.owo")
+    plug(_name="imageAndText" _src="https://template.owo.ink/4b9900afb3b679f4.owo")
+    plug(_name="imageAndText" _src="https://template.owo.ink/4b9900afb3b679f4.owo")
+    plug(_name="imageAndText" _src="https://template.owo.ink/4b9900afb3b679f4.owo")
+    plug(_name="imageAndText" _src="https://template.owo.ink/4b9900afb3b679f4.owo")
+    plug(_name="imageAndText" _src="https://template.owo.ink/4b9900afb3b679f4.owo")
+    plug(_name="imageAndText" _src="https://template.owo.ink/4b9900afb3b679f4.owo")
+    plug(_name="imageAndText" _src="https://template.owo.ink/4b9900afb3b679f4.owo")
+    plug(_name="imageAndText" _src="https://template.owo.ink/4b9900afb3b679f4.owo")
+    plug(_name="imageAndText" _src="https://template.owo.ink/4b9900afb3b679f4.owo")
+    plug(_name="imageAndText" _src="https://template.owo.ink/4b9900afb3b679f4.owo")
+  .h35.no-phone
+  .h10.no-pc
+  plug(_name="pagination2" _src="https://template.owo.ink/5312b2c3fed697a2.owo")
+  plug.no-phone(_name="linksbg" _src="./src/moudle/linksbg.owo")
+  plug.no-pc(_name="copyright" _src="https://template.owo.ink/060579f0b4f1bcaa.owo")
+</template>
+
+<script>
+  module.exports = {
+    created: function () {
+
+    }
+  }
+</script>
+
+
+<style lang="less">
+.xwch {
+  .image-show {
+    float: left;
+    margin-right: 20px;
+  }
+  .image-show:nth-child(3n) {
+    margin-right: 0;
+  }
+}
+#copyright {
+  padding: 30px 0;
+  background-color: #e60012;
+  color: white;
+}
+</style>

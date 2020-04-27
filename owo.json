@@ -108,8 +108,8 @@
 	],
 	"pageList": [
 		{
-			"name": "phone",
-			"src": "./src/page/phone.owo",
+			"name": "page",
+			"src": "./src/page/page.owo",
 			"type": "page"
 		}
 	],

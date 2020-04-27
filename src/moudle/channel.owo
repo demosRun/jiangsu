@@ -52,16 +52,17 @@
 
 </template>
 
-<script>
-  module.exports = {
-    created: function () {
-
-    }
-  }
-</script>
-
 
 <style lang="less">
+.top_nav {
+  height: 60px;
+  background-color: #e60012;
+  line-height: 60px;
+  color: white;
+}
+a {
+  color: white;
+}
 .fl a {
   margin-right: 5px;
   font-size: 15px;

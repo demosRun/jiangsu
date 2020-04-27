@@ -1,0 +1,154 @@
+/* 这个文件里写的是全局样式,在各个页面都生效 */
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  user-select: text;
+  font-size: 14px;
+  font-family: 'pingfang SC','helvetica neue',arial,'hiragino sans gb','microsoft yahei ui','microsoft yahei','simsun',sans-serif;
+  -webkit-overflow-scrolling: touch;
+  overflow-x: hidden;
+}
+html {
+  background-color: white;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+}
+body, html, .page {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  position: relative;
+}
+h1, h2, h3, h4, h5, input {
+  margin: 0;
+  padding: 0;
+}
+ul, li {
+  list-style-type: none;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, button, input, textarea, th, td{
+  margin:0;
+  padding:0;
+}
+
+.clearfix:after, .clear:after {
+  content: "";
+  height: 0;
+  line-height: 0;
+  display: block;
+  visibility: hidden;
+  clear: both;
+}
+
+.w1000 {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.w1200 {
+  width: 1200px;
+  margin: 0 auto;
+}
+.block-box a, .block-box img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+.pc .no-pc, .phone .no-phone {
+  display: none;
+}
+
+.h10 {
+  display: block;
+  width: 100%;
+  height: 10px;
+}
+.h25 {
+  display: block;
+  width: 100%;
+  height: 25px;
+}
+.h35 {
+  display: block;
+  width: 100%;
+  height: 35px;
+}
+.w96 {
+  width: 96%;
+  margin: 0 auto;
+}
+.red-a a:hover {
+  color: #c00;
+  text-decoration: underline;
+}
+
+.phone .w1000 {
+  width: 96%;
+}
+
+.phone {
+  background-color: #fff0f0;
+}
+
+.phone .image-show {
+  width: 48%;
+  margin-right: 0;
+  background-color: white;
+}
+
+.phone .image-show img {
+  width: 100%;
+  height: 30vw;
+}
+
+.phone .image-show h4 {
+  font-size: 12px;
+  line-height: 18px;
+  height: 36px;
+  margin: 3px;
+}
+
+.picl {
+  overflow: hidden;
+}
+.picl img {
+  width: 100%;
+  transition: transform 0.3s;
+}
+
+.picl img:hover {
+  width: 100%;
+  transform: scale(1.2);
+}
+
+.phone .picl {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.phone .image-show {
+  padding: 0;
+  margin: 10px 1%;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px #ccc;
+  overflow: hidden;
+}
